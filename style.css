@@ -1,0 +1,50 @@
+html
+{
+    background-color: darksalmon;
+    background-image: url(images/testbackground.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body
+{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.logo
+{
+  height: 520px;
+  width: 500px;    
+  display: block;
+  margin: 0 auto;   
+}
+
+#textbox
+{
+    background-color: white;
+	padding: 0em 1em 1em;
+	padding-top: 10px;
+	margin:-90px 350px 350px 350px;
+}
+
+.leftbottomfooter
+{
+    float: left;
+    font-size: 12px;
+}
+
+.rightbottomfooter
+{
+    float: right;
+    font-size: 12px;
+}
+
+a:link    {
+  text-decoration:  none;
+  font-weight:      bold;
+  } 
