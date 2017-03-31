@@ -2,10 +2,10 @@ html
 {
     background-color: darksalmon;
     background-image: url(images/testbackground.jpg);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body
@@ -14,6 +14,17 @@ body
     font-style: normal;
     font-weight: 400;
     
+}
+
+hr
+{
+    border: 1.5px solid darkgreen;
+}
+
+.indent
+{
+    text-indent: 50px;
+    line-height: 40px;
 }
 
 .logo
@@ -45,6 +56,24 @@ body
 }
 
 a:link    {
-  text-decoration:  none;
-  font-weight:      bold;
-  } 
+  text-decoration: none;
+  font-weight: bold;
+  }
+
+.by
+{
+    font-size: 13px;
+    color: grey;
+}
+
+.bye
+{
+    font-weight: bold;
+}
+
+.scroll
+{
+    left: -100px;   
+    height: 40px;
+    width: 40px;
+}

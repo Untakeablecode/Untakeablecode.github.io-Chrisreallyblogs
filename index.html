@@ -9,13 +9,45 @@
 
         <body>
             
+            <a href="#down">
+            <img class="scroll" src="images/downarrow.png">
+            </a>
+            
             <img class="logo" src="images/CRBlogo.png">
+            
             <div id="textbox">
-            <h1>Stuff is happening!</h1>
-            <p>Testing this out and getting the website ready! Be prepared for the hype that will take place.</p>
+                
+            <h1 class="arrow"><abbr title="Thursday, March 30, 2017">Welcome to the First Post!</abbr></h1>
+                <p class="by">Posted By: Chris A.</p>
+         
+                <p class="indent">To start off, thank you for taking the time to start reading this webpage/blog of sorts. Secondly, you might have some questions about what this blog is all about. Well<span id="..."></span> I don't know either—such a great beginning.</p>
+                
+                <p class="indent">I was thinking about maybe making it an <q>open source</q> blog (meaning anyone could write something), or just a regular old blog about my <i>interests.</i> Until the time comes we have to wait to see what will happen in the end.</p>
+                
+                <p class="bye">Deuces!</p>
+          
+                
+                <hr>
+                
+                
+                
             </div>
             
-        <p class="leftbottomfooter">Copyright © 2017 Christopher A.</p>
+            <script>
+            
+            var dots = window.setInterval( function() {
+    var wait = document.getElementById("...");
+    if ( wait.innerHTML.length > 2 ) 
+        wait.innerHTML = "";
+    else 
+        wait.innerHTML += ".";
+    }, 500);
+
+
+                
+            </script>
+            
+        <p id="down" class="leftbottomfooter">Copyright © 2017 Christopher A.</p>
             <p class="rightbottomfooter"><a href="https://github.com/Untakeablecode/Untakeablecode.github.io-Chrisreallyblogs"><abbr title="Made for Coders in Mind">Github</abbr></a></p>
         </body>    
     
