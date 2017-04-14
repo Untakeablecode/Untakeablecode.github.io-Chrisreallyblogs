@@ -73,7 +73,31 @@ a:link    {
 
 .scroll
 {
-    left: -100px;   
-    height: 40px;
-    width: 40px;
+    left: 20px;   
+    height: 60px;
+    width: 60px;
+    position: fixed;
+}
+
+.image
+{
+    width: 400px;
+    height: 300px;
+    margin: 18px 90px 10px 90px;
+}
+
+.overline
+{
+    border-top: 2px dotted #000;
+}
+
+.intro
+{
+    font-size: 230%;
+    font-weight: bolder;
+}
+
+.shadow
+{
+    text-shadow: -1.5px -1.5px #666686;
 }
