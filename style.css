@@ -6,6 +6,7 @@ html
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
 
 body
@@ -13,7 +14,7 @@ body
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 400;
- 
+
 }
 
 hr
@@ -40,7 +41,9 @@ hr
     background-color: white;
 	padding: 0em 1em 1em;
 	padding-top: 10px;
-	margin:-90px 350px 350px 350px;
+	margin-left:auto;
+    margin-right:auto;
+    width: 640px;
 }
 
 .leftbottomfooter
@@ -83,7 +86,7 @@ a:link    {
 {
     width: 400px;
     height: 300px;
-    margin: 18px 90px 10px 90px;
+    margin: 18px 90px 10px 120px;
 }
 
 .overline
